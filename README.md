@@ -12,9 +12,19 @@ Hitting the service at http://localhost:5858 will display the hello world messag
 Hello, Jobayer!
 
 
-Hitting the service at http://localhost:5858/willaim will display the hello world message:
+Hitting the service at http://localhost:5858/william will display the hello world message:
 ------------------------------------------------------------
 Hello, william!
 
 
-5. Dockcerwise docker build -t docker-python-hello-world .
+5. Dockcerwise 
+
+docker build -t docker-python-hello-world .
+
+6. Openshift
+
+Login to Openshift using oc cli
+
+then fire 
+
+oc new-app -f hello-service.yaml 
