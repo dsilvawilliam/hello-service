@@ -9,7 +9,7 @@ Python service which returns hello-world when hit
 
 Hitting the service at http://localhost:5858 will display the hello world message:
 ------------------------------------------------------------
-Hello, Jobayer!
+Hello, World!
 
 
 Hitting the service at http://localhost:5858/william will display the hello world message:
