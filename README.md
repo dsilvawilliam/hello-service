@@ -17,7 +17,7 @@ Hitting the service at http://localhost:5858/william will display the hello worl
 Hello, william!
 
 
-5. Dockcerwise 
+5. Dockerwise 
 
 docker build -t docker-python-hello-world .
 
